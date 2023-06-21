@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@300&display=swap');
+
+* {
+    --mainfont: Roboto Condensed 700;
+    --subfont: Roboto Condensed 400;
+    --bodyfont: Roboto;
+}
+
+body {
+    background-image: url(./photos/bg1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: white;
+    width: 100%;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+h1 {
+    font-family: var(--mainfont);
+    margin-top: 10vh;
+    /* border: 2px solid white; */
+    box-shadow: 0 4px 20px 0 white;
+}
+
+h5 {
+    font-family: var(--subfont);
+}
+
+p {
+    font-family: var(--bodyfont);
+}
+
+/* .width-lg-25 {
+    width: 30vw;
+} */
+
+.card {
+    border: 2px solid white;
+    box-shadow: 0 10px 30px 0 black;
+}
+
+.carousel-border {
+    margin-bottom: 15vh;
+}
+
+.carousel-border img {
+    border: 2px solid white;
+}
+/* .w-lg-50 {
+    width: 60vw;
+} */
